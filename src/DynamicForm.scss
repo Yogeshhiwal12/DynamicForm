@@ -1,0 +1,17 @@
+.number-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    input[type="number"] {
+      width: calc(100% - 50px);
+    }
+  
+    span {
+      display: inline-block;
+      width: 50px;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+  
